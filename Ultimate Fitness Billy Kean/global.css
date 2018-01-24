@@ -1,0 +1,107 @@
+body{
+	background-color: blue;
+	font-family: sans-serif;
+	color: white;
+}
+
+
+#wrapper{
+	width: 1225px;
+	margin: 0px 5px 0px 5px;
+	padding: 0px 5px 0px 5px;
+	overflow: auto;
+}
+
+#header {
+background-color: black;
+}
+
+#header h1 {
+	text-align: center;
+	background-color: black;
+}
+
+#header h2 {
+	text-align: center;
+	background-color: black;
+}
+
+#header img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#main_nav {
+	padding:10px;
+}
+
+#main_nav h1{
+	font-family: "Lucida Handwriting";
+	text-align: center;
+}
+
+#main_nav li {
+	width: 250px;
+	display: inline-block;
+	text-align: center;
+	padding:0px 4px 0px 4px;
+	border:2px solid #000000;
+	margin-left:10px;
+	background-color: gray;
+}
+
+#main_nav  a {
+	text-decoration: none;
+	color: white;
+}
+
+#main_nav a:hover {
+	font-weight: bold;
+}
+
+#main_content {
+	margin: 55px;
+	padding: 15px;
+	width: 1100px;
+	background-color: grey;
+	border: 2px solid black;
+	border-radius: 20px;
+	line-height: 1.8em;
+	float:left;
+	color:white;
+	text-align:center;
+}
+
+#main_content ul{
+	float:left;
+}
+
+#main_content img {
+	float:right;
+	height:500px;
+}
+
+#footer {
+	padding: 15px;
+	margin: 15px;
+	height: 100px;
+	background-color: grey;
+	border: 2px solid black;
+	border-radius: 20px;
+	text-align: center;
+	clear: left;
+	color: white;
+}
+
+#footer li {
+	display: inline-block;
+	text-align: center;
+	clear:left;
+	margin: 17px;
+}
+
+#footer a {
+	text-decoration: none;
+}
